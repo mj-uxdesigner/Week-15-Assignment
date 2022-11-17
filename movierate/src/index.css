@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* movie previews / list */
+.movie-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.movie-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.movie-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.movie-preview a{
+  text-decoration: none;
+}
+
+/* movie details page */
+.movie-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.movie-details div {
+  margin: 20px 0;
+}
+.movie-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* comment form */
+.comment {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 5000;
+}
+
+.comment-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+}
+
+.comment-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.comment label {
+  text-align: left;
+  display: block;
+}
+.comment h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.comment input, .comment textarea, .comment select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.comment button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new movie form */
+.create {
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.movieImage {
+  max-width: 450px;
+  max-height: 275px;
+  object-fit: cover;
+}
+
+.movie-preview button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  margin: 5px 0 0 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
